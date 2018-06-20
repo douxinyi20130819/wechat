@@ -32,7 +32,7 @@ def wexin(request):
             repr = create_reply('这是条其他类型消息', msg)
         return HttpResponse(repr.render(),content_type='application/xml')
     else:
-        return HttpResponse("NONO")
+        pass
 
 
 
